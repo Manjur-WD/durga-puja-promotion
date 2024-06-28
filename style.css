@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+body {
+    font-family: "Syne", sans-serif;
+}
+
+.video-breadcrumb {
+    height: 50vh;
+    width: 100%;
+}
+
+.video-breadcrumb video {
+    object-fit: cover;
+    object-position: center;
+}
+
+.durga-puja-slogan .content {
+    background: linear-gradient(to right, whitesmoke, transparent);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.durga-puja-slogan .content h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.durga-puja-slogan img {
+    width: 250px;
+}
+
+
+.durga-puja-slogan .sankha {
+    position: absolute;
+    left: 5%;
+    rotate: 90deg;
+    top: 80%;
+    transform: translate(0%, -5%);
+}
+
+
+
+.durga-puja-slogan .content h1 span.one {
+    color: #8DC96E;
+    font-size: 7vmin;
+}
+
+.durga-puja-slogan .content h1 span.two {
+    color: #2C724A;
+    font-size: 7vmin;
+}
+
+.durga-puja-slogan .content h1 span.three {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.exclusive-service h2 {
+    font-size: 3vmin;
+    font-weight: 800;
+    position: relative;
+    margin-top: 100px;
+}
+
+.exclusive-service h2:before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8DC96E;
+    display: inline-block;
+    position: absolute;
+    filter: blur(80px);
+}
+
+.exclusive-service h2:after {
+    content: "";
+    height: 0.2rem;
+    width: 3rem;
+    background-color: #8DC96E;
+    display: inline-block;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+.exclusive-service h2 span {
+    color: #2C724A;
+
+}
+
+.option-card {
+    position: relative;
+}
+
+.option-card img {
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgb(196, 196, 196);
+}
+
+.option-card:after {
+    content: "";
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid #8DC96E;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: -1;
+}
+
+.option-content h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.chakra-container-1 {
+    position: absolute;
+    text-align: center;
+    top: -20%;
+    left: 4%;
+}
+
+.chakra-container-1 img {
+    width: 65%;
+    opacity: 0.08;
+    animation: rotation 35s infinite linear;
+}
+
+.chakra-container-2 {
+    position: absolute;
+    text-align: center;
+    top: -20%;
+    right: 6%;
+}
+
+.chakra-container-2 img {
+    width: 65%;
+    opacity: 0.08;
+    animation: rotation 35s infinite linear;
+}
+
+.our-previous-works {
+    background: linear-gradient(to left, whitesmoke, transparent);
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+.our-previous-works h2 {
+    font-size: 3vmin;
+    font-weight: 800;
+    position: relative;
+}
+
+.our-previous-works h2 span.one {
+    color: #2C724A;
+}
+
+.our-previous-works h2 span.two {
+    color: #8DC96E;
+}
+
+.our-previous-works h2 span.three {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.our-previous-works h2:after {
+    content: "";
+    height: 0.2rem;
+    width: 3rem;
+    background-color: #8DC96E;
+    display: inline-block;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+.previous-works-gallery {
+    height: 800px;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.previous-works-gallery img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: top;
+}
+
+.bento-row-1 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bento-sub-row-1 {
+    height: 49%;
+    border-radius: 20px;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.bento-sub-row-2 {
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bento-col {
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bento-col-1 {
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bento-row-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bento-col-2 {
+    height: 33.33%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bento-row-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bento-col-3 {
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.show-more-btn {
+    transition: all 0.5s ease-in-out;
+}
+
+.show-more-btn:hover {
+    scale: 1.1;
+    background-color: #8DC96E !important;
+}
+
+.top-pujas h2 {
+    font-size: 3vmin;
+    font-weight: 800;
+    position: relative;
+}
+
+.top-pujas h2 span.one {
+    color: #8DC96E;
+}
+
+.top-pujas h2:after {
+    content: "";
+    height: 0.2rem;
+    width: 3rem;
+    background-color: #2C724A;
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 51%;
+    transform: translate(-50%, 0%);
+}
+
+.top-pujas h2:before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8DC96E;
+    display: inline-block;
+    position: absolute;
+    filter: blur(80px);
+}
+
+.preworks-wrap {
+    height: 900px;
+    overflow-y: auto;
+}
+
+.top-puja-card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+    box-shadow: 5px 5px 10px #8DC96E;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.top-puja-card img {
+    width: 40px !important;
+}
+
+.top-puja-card h4{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
