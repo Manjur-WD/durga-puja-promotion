@@ -45,11 +45,13 @@ $(".bottom-puja-slider .owl-carousel").owlCarousel({
 const showMore = document.querySelector("#show-more");
 const showLess = document.querySelector("#show-less");
 const extraPreWorks = document.querySelectorAll(".extra-preworks");
+const preworkWrap = document.querySelector(".preworks-wrap");
 
 showMore.addEventListener("click", () => {
   extraPreWorks.forEach((item) => {
     if (item.classList.contains("d-none")) {
       item.classList.remove("d-none");
+      preworkWrap.scrollBy(0, 200);
     }
   });
   showMore.classList.add("d-none");
