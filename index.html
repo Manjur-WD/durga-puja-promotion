@@ -333,7 +333,7 @@
               </div>
             </div>
           </div>
-          <div class="container previous-works-gallery pt-2">
+          <div class="container previous-works-gallery pt-2 extra-preworks d-none">
             <div class="bento-row bento-row-1">
               <div class="bento-sub-row-1">
                 <div class="bento-col-1">
@@ -410,19 +410,31 @@
           </div>
         </div>
 
-        <div class="text-center pt-5">
+        <div class="text-center pt-3">
           <button
             type="button"
             class="bg-white border border-2 border-dark py-2 px-3 rounded-pill shadow show-more-btn"
+            id="show-more"
           >
             <span class="icon bg-dark mx-2 p-1 rounded-circle"
               ><i class="ri-eye-fill text-white"></i></span
-            >SHOW MORE
+            ><span class="show-content">SHOW MORE</span>
+            <img src="./images/Arrow 1.png" alt="show-more-btn" class="ms-2" />
+          </button>
+          <button
+            type="button"
+            class="bg-white border border-2 border-dark py-2 px-3 rounded-pill shadow show-more-btn d-none"
+            id="show-less"
+          >
+            <span class="icon bg-dark mx-2 p-1 rounded-circle"
+              ><i class="ri-eye-fill text-white"></i></span
+            ><span class="show-content">SHOW LESS</span>
             <img src="./images/Arrow 1.png" alt="show-more-btn" class="ms-2" />
           </button>
         </div>
       </section>
-      <section class="top-pujas py-5 container">
+      <section class="top-pujas pb-5">
+        <img src="./images/Polygon 1 (1).png" alt="polygon" />
         <h2 class="text-center mb-5">
           <img
             src="./images/sidefacedurga.png"
@@ -432,7 +444,7 @@
           TOP
           <span class="one">PUJAS</span>
         </h2>
-        <div class="top-puja-slider">
+        <div class="top-puja-slider container">
           <div class="owl-carousel owl-theme">
             <div class="item">
               <div class="top-puja-card">
@@ -443,39 +455,68 @@
             <div class="item">
               <div class="top-puja-card">
                 <img src="./images/Temple.png" alt="temple" />
-                <h4>Suruchi Sangha</h4>
+                <h4>Mohammad
+                  Ali PARK</h4>
               </div>
             </div>
             <div class="item">
               <div class="top-puja-card">
                 <img src="./images/Temple.png" alt="temple" />
-                <h4>Suruchi Sangha</h4>
+                <h4>Santosh Mitra SQUARE</h4>
               </div>
             </div>
           </div>
         </div>
-        <div class="bottom-puja-slider">
+        <div class="bottom-puja-slider container mb-5">
           <div class="owl-carousel owl-theme">
             <div class="item">
               <div class="top-puja-card">
-                
-                <h4>Suruchi Sangha</h4>
+                <h4>Ekdalia Evergreen Club</h4>
                 <img src="./images/Temple.png" alt="temple" />
               </div>
             </div>
             <div class="item">
               <div class="top-puja-card">
-                <h4>Suruchi Sangha</h4>
+                <h4>Tridhara Sammilani</h4>
                 <img src="./images/Temple.png" alt="temple" />
               </div>
             </div>
             <div class="item">
               <div class="top-puja-card">
-                <h4>Suruchi Sangha</h4>
+                <h4>DESPRIYO
+                  PARK</h4>
                 <img src="./images/Temple.png" alt="temple" />
               </div>
             </div>
           </div>
+        </div>
+        <div class="line bg-light p-1 mt-5 rounded-circle"></div>
+      </section>
+      <section class="contact-us position-relative">
+        <h2 class="text-center mb-5">
+          CONTACT
+          <span class="one">US</span> <br>
+          <span class="two text-dark fs-4 fw-normal">GET A FREE CONSULTATION !!</span>
+        </h2>
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="cta-btns d-inline-flex gap-5">
+            <a href="#" class="text-decoration-none">
+              <div class="cta-btn-1">
+                <div class="icon"><img src="./images/Ringer Volume.png" alt="call-icon"></div>
+                <p class="action-text">CALL NOW</p>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div class="cta-btn-2">
+                <div class="icon"><img src="./images/WhatsApp.png" alt="whtsapp-icon"></div>
+                <p class="action-text">WHATSAPP</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-bg d-flex justify-content-between position-absolute align-items-end w-100">
+          <img src="./images/abybaby event-01.png" alt="abybaby-logo" class="opacity-75">
+          <img src="./images/Line 3.png" alt="line">
         </div>
       </section>
     </main>
