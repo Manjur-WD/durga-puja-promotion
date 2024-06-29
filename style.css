@@ -180,6 +180,13 @@ body {
     font-weight: 500;
 }
 
+@media(max-width: 600px){
+    .our-previous-works h2 span.three {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
 .our-previous-works h2:after {
     content: "";
     height: 0.2rem;
@@ -425,6 +432,13 @@ body {
 .contact-bg{
     top: 0%;
     z-index: -1;
+}
+
+@media(max-width: 600px){
+    .contact-bg{
+        bottom: 0;
+        z-index: -1;
+    }
 }
 
 .contact-bg img{
