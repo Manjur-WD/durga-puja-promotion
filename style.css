@@ -26,6 +26,12 @@ body {
     font-size: 1.8rem;
 }
 
+@media(max-width: 600px){
+    .durga-puja-slogan .content h1 {
+        font-size: 1rem;
+    }
+}
+
 .durga-puja-slogan img {
     width: 250px;
 }
