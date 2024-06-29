@@ -26,7 +26,7 @@ body {
     font-size: 1.8rem;
 }
 
-@media(max-width: 600px){
+@media(max-width: 600px) {
     .durga-puja-slogan .content h1 {
         font-size: 1rem;
     }
@@ -102,6 +102,7 @@ body {
 
 .option-card {
     position: relative;
+    cursor: pointer;
 }
 
 .option-card img {
@@ -186,7 +187,7 @@ body {
     font-weight: 500;
 }
 
-@media(max-width: 600px){
+@media(max-width: 600px) {
     .our-previous-works h2 span.three {
         font-size: 1rem;
         font-weight: 500;
@@ -207,14 +208,14 @@ body {
 
 
 .previous-works-gallery {
-    min-height: 800px;
+    height: 800px;
     display: flex;
     gap: 0.5rem;
 }
 
-@media(max-width: 600px){
+@media(max-width: 600px) {
     .previous-works-gallery {
-        min-height: 400px;
+        height: auto;
         flex-direction: column;
         gap: 0.2rem;
     }
@@ -334,7 +335,7 @@ body {
     overflow-y: auto;
 }
 
-.preworks-wrap::-webkit-scrollbar{
+.preworks-wrap::-webkit-scrollbar {
     scrollbar-color: pink lightblue;
 }
 
@@ -354,13 +355,13 @@ body {
     width: 40px !important;
 }
 
-.top-puja-card h4{
+.top-puja-card h4 {
     margin: 0;
     text-transform: uppercase;
     font-size: 1rem;
 }
 
-.contact-us{
+.contact-us {
     min-height: 350px;
 }
 
@@ -387,18 +388,20 @@ body {
     transform: translate(-50%, 0%);
 }
 
-.cta-btn-1,.cta-btn-2{
+.cta-btn-1,
+.cta-btn-2 {
     transition: all 0.5s ease-in-out;
 }
 
-.cta-btn-1 .icon{
+.cta-btn-1 .icon {
     background: #2C724A;
     display: inline-block;
     padding: 10px;
     border-radius: 50%;
 }
 
-.cta-btn-1 p,.cta-btn-2 p{
+.cta-btn-1 p,
+.cta-btn-2 p {
     margin: 0;
     background: black;
     display: inline-block;
@@ -414,43 +417,59 @@ body {
 }
 
 .cta-btn-1:hover,
-.cta-btn-2:hover{
+.cta-btn-2:hover {
     scale: 1.1;
 }
 
 .cta-btn-1:hover .action-text,
-.cta-btn-2:hover .action-text{
+.cta-btn-2:hover .action-text {
     box-shadow: 5px 5px 15px green;
 }
 
 
-.icon img{
+.icon img {
     width: 50px;
 }
 
-.cta-btn-2 .icon{
+.cta-btn-2 .icon {
     background: #8DC96E;
     display: inline-block;
     padding: 10px;
     border-radius: 50%;
 }
 
-.contact-bg{
+.contact-bg {
     top: 0%;
     z-index: -1;
 }
 
-@media(max-width: 600px){
-    .contact-bg{
+@media(max-width: 600px) {
+    .contact-bg {
         bottom: 0;
         z-index: -1;
     }
 }
 
-.contact-bg img{
+.contact-bg img {
     width: 20%;
     height: 20%;
 }
+
+
+.float-cta{
+    width: 120px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+}
+
+.float-cta img{
+    filter: drop-shadow(0 0 5px white);
+}
+
+
+
 
 
 
