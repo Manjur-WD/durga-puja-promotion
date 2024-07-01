@@ -471,7 +471,18 @@ body {
 }
 
 .float-cta img{
-    filter: drop-shadow(0 0 5px white);
+    filter: drop-shadow(0 0 5px gold);
+}
+
+
+.fancybox-caption {
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as per your design */
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-family: "Syne", sans-serif !important; 
 }
 
 
